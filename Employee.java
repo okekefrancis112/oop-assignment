@@ -1,11 +1,7 @@
 
 public class Employee {
 	public int baseSalary;
-//	private int baseSalary;
-//	public int hourlyRates;
 	private int hourlyRate;
-//	public int extraHours;
-
 	public static int numberOfEmployees;
 
 	public Employee(int baseSalary) {
@@ -50,16 +46,3 @@ public class Employee {
 		return hourlyRate;
 	}
 }
-
-// public class Student {
-//     // Instance variables (attributes)
-//     private String name;
-//     final private int age;
-//     private double gpa;
-
-//     // Static variable (class-level)
-//     private static int totalStudents = 0;
-
-//     // Constructor will go here
-//     // Methods will go here
-// }
